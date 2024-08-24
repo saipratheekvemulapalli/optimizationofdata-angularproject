@@ -40,7 +40,7 @@ For a 1 MB image:
 
 **To install nodemodules**
    ```bash
-   npm install
+   npm install```
 
 
 ## How to Clone
