@@ -1,0 +1,30 @@
+<div class="uperdiv" style="background-image: url('https://www.innovationnewsnetwork.com/wp-content/uploads/2022/11/%C2%A9-iStockPetmal-1340519929-696x392.jpg');">
+<div class="lowerdiv">
+  <form [formGroup]="imageUploadForm" class="center">
+<!-- <label class="image-upload-container btn">
+    <span>Select Image</span>
+    <input #imageInput
+           type="file"
+           accept="image/*"
+           (change)="processFile(imageInput)">
+  </label> -->
+
+  <input type="file" accept="image/*" formControlName="fileInput"  #coverFilesInput (change)="onChange($event)" class="file-input"  />
+    Upload Percent: {{percentDone}}% <br />
+    
+
+    <ng-container *ngIf="uploadSuccess">
+      Upload Successful of file with size : {{size}} mb <br>
+      This file released : {{aco2}} gm of co2 in 1 year <br>
+      After compression the file size is : {{comp}}  <br>
+      You saved : {{dco2}} gm of co2 <br><br>
+      <button type="submit" class="btn btn-lg btn-primary">Compress and Upload</button>
+    </ng-container> 
+</form>
+</div>
+</div>
+
+
+  
+  
+  
