@@ -38,7 +38,9 @@ For a 1 MB image:
 ### 3. **Industry Adoption:**
    - The project encourages collaboration with tech companies, social media platforms, and content creators to promote the adoption of sustainable image compression practices.
 
-
+**To install nodemodules**
+   ```bash
+   npm install
 
 
 ## How to Clone
